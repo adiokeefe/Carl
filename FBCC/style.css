@@ -1,0 +1,32 @@
+h1 {
+   text-align: center;
+   color:red ;
+   font-family: cursive;
+   font-size: 60px;
+   
+}
+body {
+   background-color: blue;
+}
+main {
+   color: aliceblue;
+}
+
+#menu {
+   width: 40px;
+   float: right;
+   transition: transform 0.12s ease-in-out;
+}
+#menu:hover{
+    transform: scale(1.5);
+}
+
+button {
+   background-color: Transparent;
+   background-repeat: no-repeat;
+   border: none;
+   outline: none;
+}
+button:active{
+   transform: rotate(360deg);
+}
